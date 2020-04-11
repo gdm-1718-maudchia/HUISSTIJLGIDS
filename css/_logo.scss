@@ -1,0 +1,72 @@
+$color1: #30211e;
+$color2:#99cc33;
+$color3:#256136;
+$color4: #9c9b9b;
+$color5: #fff;
+
+@font-face {
+    font-family: qanelassoft_extrabold;
+    src: url(../font/QanelasSoftDEMO-ExtraBold.otf);
+  }
+@font-face {
+    font-family: qanelassoft_ultralight;
+    src: url(../font/QanelasSoftDEMO-UltraLight.otf);
+  }
+  
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,700,900');
+  
+  $fontset1:'Lato', sans-serif;
+  $fontset2: qanelassoft_extrabold;
+  $fontset3: qanelassoft_ultralight;
+
+
+.intro{
+    padding:40px;
+    margin: auto;
+}
+.logo_uitleg{
+    padding:80px;
+    margin:auto;
+    img{
+        width: 25%;
+        justify-content: center;
+        float: right;
+    }
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.color_card{
+    margin: auto;
+    height:250px;
+    width: 100%;
+}
+.card-body{
+    max-height:500px;
+    min-height: 400px;
+}
+.link_container{  
+    padding:20px;
+    font-size: 1.5em;
+    font-family: $fontset2;
+    margin:0px;
+    background-color: $color2;
+    margin-bottom:20px;
+    a{
+    display: flex;
+    color:$color1;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width:100%;
+    }
+
+}
+
+.link_container:hover {
+    background-color: $color1;
+    a{
+    color:$color5;
+    text-decoration: none;
+}}

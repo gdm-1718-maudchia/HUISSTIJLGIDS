@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.HEADTITLE {
+
+    padding-bottom: 50px;
+}
+
+body {
+    padding-top: 50px
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FF5500;
+    font-family: titling-gothic-fb-extended, sans-serif;
+    font-style: normal;
+}
+
+h2 {
+    color: #FF5500;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding-left: 100px;
+    padding-bottom: 15px;
+    font-family: titling-gothic-fb-extended, sans-serif;
+    font-style: normal;
+}
+
+h3 {
+    color: black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding-left: 100px;
+    padding-bottom: 15px;
+    font-family: titling-gothic-fb-extended, sans-serif;
+    font-style: normal;
+}
+
+p {
+    color: black;
+    font-family: sans-serif;
+    word-spacing: normal;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+table {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: flex-start;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    border-collapse: separate;
+    border-spacing: inherit;
+}
+
+th {
+    background-color: white;
+    font-family: sans-serif;
+    color: #FF5500;
+    font-family: titling-gothic-fb-extended, sans-serif;
+    font-style: normal;
+    font-size: 10pt;
+    padding-bottom: 7px;
+    padding: 10px;
+    margin: 10px;
+}
+
+tr {
+    font-family: sans-serif;
+    background-color: #FF5500;
+    color: white;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    padding-bottom: 100px;
+    margin: 10px;
+    text-transform: uppercase;
+
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul {
+    font-family: titling-gothic-fb-wide, sans-serif;
+    list-style-image: url('BULLET-11.png');
+    padding-left: 160px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+hx {
+    font-family: titling-gothic-fb-wide, sans-serif;
+    color: black;
+    padding-left: 100px;
+    padding-bottom: 80px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding-left: 200px;
+    margin-left: 100px
+}
+
+.red {
+    background: #FF5500;
+}
+
+.yellow {
+    background: #FF9900;
+}
+
+.blue {
+    background: #7FC9FA;
+}
+
+.purple {
+    background: #8127F0;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    body {
+        padding-left: 200px;
+        padding-top: 100px;
+    }
+
+    table {
+        padding-left: 100px;
+        padding-right: 800px;
+    }
+
+
+}

@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,700,900");
+@import url("https://use.typekit.net/ano8bxt.css");
+
+@font-face {
+    font-family: qanelassoft_extrabold;
+    src: url(../font/QanelasSoftDEMO-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: qanelassoft_ultralight;
+    src: url(../font/QanelasSoftDEMO-UltraLight.otf);
+}
+
+.intro {
+    padding: 40px;
+    margin: auto;
+}
+
+.logo_uitleg {
+    padding: 80px;
+    margin: auto;
+}
+
+.logo_uitleg img {
+    width: 25%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    float: right;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.color_card {
+    margin: auto;
+    height: 250px;
+    width: 100%;
+}
+
+.card-body {
+    max-height: 500px;
+    min-height: 400px;
+    font-family: titling-gothic-fb-narrow, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.link_container {
+    padding: 20px;
+    font-size: 1.2em;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0px;
+    background-color: #FF5500;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.link_container a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.link_container:hover {
+    background-color: #FF9600;
+}
+
+.link_container:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-outline-primary {
+    background-color: #fff;
+    color: #30211e;
+    border-color: #FF4200;
+    border-width: 1px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #99cc33;
+    color: #fff;
+    border-color: #FF4200;
+    border-width: 1px;
+}
+
+.btn-outline-success {
+    background-color: #FF4200;
+    color: #30211e;
+    border-color: #FF4200;
+    border-width: 1px;
+}
+
+.btn-outline-success:hover {
+    background-color: #FF9600;
+    color: #fff;
+    border-color: #FF9600;
+    border-width: 1px;
+}
+
+.btn {
+    margin: 10px;
+    font-size: 0.7em;
+    color: white;
+}
+
+@font-face {
+    font-family: qanelassoft_extrabold;
+    src: url(../font/QanelasSoftDEMO-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: qanelassoft_ultralight;
+    src: url(../font/QanelasSoftDEMO-UltraLight.otf);
+}
+
+body {
+    font-family: titling-gothic-fb-narrow, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1em;
+    color: #30211e;
+}
+
+nav {
+    background-color: #fff;
+}
+
+.nav-link {
+    color: #FF5500;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 100px;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.nav-item {
+    color: #30211e;
+}
+
+.nav-item :hover {
+    color: #FF9600;
+}
+
+.nav-item li.active {
+    color: #FF9600;
+    font-weight: 900;
+}
+
+.cool-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    -webkit-transition: width .3s;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+}
+
+p {
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #FF5500;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5.5vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FF5500;
+    color: white;
+    padding-left: 50px;
+}
+
+h2 {
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 400;
+    padding-bottom: 0PX;
+    font-style: normal;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FF5500;
+}
+
+h3 {
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2em;
+    color: #FF5500;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h6 {
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5.5vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FF5500;
+    color: white;
+}
+
+h7 {
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    color: black;
+    text-transform: uppercase;
+}
+
+.li {
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.ul {
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+    ul {
+        font-family: titling-gothic-fb-wide, sans-serif;
+        list-style-image: url('BULLET-11.png');
+        padding-left: 160px;
+        color: black;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+}
+
+.jumbotron {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: white;
+    margin-bottom: 0px;
+    max-height: 300px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.jumbotron_txt {
+    width: 100%;
+    padding-left: 80px;
+}
+
+.jumbotron_img img {
+    min-width: 130px;
+    min-height: 150px;
+    width: 75%;
+    padding: 20px;
+}
+
+.img_container {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    color: #fff;
+    background-color: #FF5500;
+    height: 250px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.0em;
+    font-weight: 300;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+footer p {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 0.75em;
+}
+
+.footer_img {
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.card_img img {
+    padding: 20px;
+}
+
+.download_card {
+    min-height: 700px;
+    max-height: 800px;
+}
+
+.download_card_hor {
+    max-height: 500px;
+}
+
+.card-text {
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1em;
+    font-size: 1em;
+}
+
+
+
+
+/*# sourceMappingURL=style.css.map */
