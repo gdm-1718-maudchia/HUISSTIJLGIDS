@@ -55,7 +55,7 @@ p {
     padding-bottom: 40px;
     padding-right: 50px;
     font-family: titling-gothic-fb-wide, sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -153,4 +153,30 @@ hx {
     }
 
 
+}
+
+.myButton {
+    background-color: #ff5100;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 9px 23px;
+    text-decoration: none;
+}
+
+.myButton:hover {
+    background-color: #ff5100;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.but {
+    padding: 50px;
+    text-align: center;
 }
